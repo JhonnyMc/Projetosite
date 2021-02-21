@@ -1,14 +1,19 @@
 
-.container {
+.Imagecontainer {
     width: 400px;
     height: 300px;
     border-radius: 10px;
     align-self: auto;
 } 
 
-.relative {
+.cardDescribe {
     position: absolute;
     text-align: center;
     color:rgba(255, 255, 255, 0.671)
 }
 
+.sectionStyle {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
