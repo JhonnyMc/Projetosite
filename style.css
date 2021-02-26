@@ -1,18 +1,37 @@
 
-.container {
+.Imagecontainer {
     width: 400px;
     height: 300px;
     border-radius: 10px;
-    align-self: auto;
+    align-self:auto;
+    opacity: 0.6;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 } 
 
-.relative {
+.CardDescribe {
     position: absolute;
-    text-align: center;
-    color:rgba(255, 255, 255, 0.671)
+    padding: 180px 170px; 
 }
 
-.Topo {
+.sectioncard {
+    width: 900px;
+    flex-wrap: wrap;
+    display:inline;
+    justify-content: center;
+    position: relative;
+}
+.topo {
     text-align:center; 
-    background-color: rgb(11, 214, 204);
+    background-color: rgb(0, 162, 255);
+}
+.paragrafo1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
+}
+
+.paragrafo2 {
+    float: right;
+    position: relative;
+    clear:both;
+    padding-left: 20px;
 }
